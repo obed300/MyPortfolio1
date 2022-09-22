@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    margin:0;
+    font-size: 1.5rem;
+    background-image: linear-gradient(260deg,red);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a.button {
+    background: green;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+}
+
+.app-wrap {
+    max-width: 540px;
+    height: 90vh;
+    margin: 5vh auto 5vh auto;
+    border-bottom-width: 70px;
+    border-radius: 10px;
+    box-shadow:0 0 50px rgba(0,0,0,0,3);
+}
+
+.content {
+    padding: 20px
+    line-height: 1.6;
+}
+
+.icon-bar a:first-child, .icon-bar {
+    
+}
+
+.icon-bar i {
+    display: block;
+    font-size: 2.5rem;
+    color:white;
+    padding-bottom: 1rem;
+    
+}
+
+.app-header{
+    background: yellow;
+    color: black;
+    padding: 1rem;
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-wrap > * {
+    flex:1 1 auto;
+}
+
+.app-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.icon-bar{
+    display: flex;
+    background-color: black;
+}
+.icon-bar a {
+    flex: 1;
+}
+
+
