@@ -3,13 +3,22 @@ html {
   font-size: 10px;
 }
 
+/* .image1{
+    position: absolute;
+left: 20.04px;
+top: 161.47px;
+
+background: #6070FF;
+transform: rotate(-156.88deg);
+
+} */
+
 .image2 {
   position: absolute;
   width: 105px;
   height: 105px;
   left: 370px;
-  top: 170.24px;
-  transform: rotate(23.34deg);
+  top: 152.24px;
 }
 
 .image3 {
@@ -19,30 +28,6 @@ html {
   left: 370px;
   top: 130px;
   transform: rotate(-30deg);
-}
-
-.image4 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 237px;
-  top: 554.1px;
-}
-
-.image5 {
-  position: absolute;
-  width: 50.06px;
-  height: 40.18px;
-  left: 192.82px;
-  top: 540px;
-}
-
-.image6 {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 214px;
-  top: 110px;
 }
 
 .My-self {
