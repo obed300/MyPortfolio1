@@ -1,33 +1,6 @@
-html {
+/* html {
   box-sizing: border-box;
-  font-size: 10px;
-}
-
-/* .image1{
-    position: absolute;
-left: 20.04px;
-top: 161.47px;
-
-background: #6070FF;
-transform: rotate(-156.88deg);
-
-} */
-
-.image2 {
-  position: absolute;
-  width: 105px;
-  height: 105px;
-  left: 370px;
-  top: 152.24px;
-}
-
-.image3 {
-  position: absolute;
-  width: 93.58px;
-  height: 40px;
-  left: 370px;
-  top: 130px;
-  transform: rotate(-30deg);
+  font-size: 10px; 
 }
 
 .My-self {
@@ -51,12 +24,15 @@ body {
   font-family: sans-serif;
   margin: 0;
   font-size: 1.5rem;
+  font-weight: 700px;
 }
 
 a {
   color: white;
   text-decoration: none;
 }
+
+
 
 a.button {
   background: white;
@@ -65,19 +41,50 @@ a.button {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
-}
+} */
 
-.my-portfolio {
-  height: 100vh;
-  margin: 5vh auto 5vh auto;
+/* a.button{
+  width: 76px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6070FF; */
+
+
+
+
+
+}
+/* .main-container {
+  background: #FFFFFF;
+  position: absolute;
+width: 375px;
+height: 718px;
+left: 0px;
+top: 0px; */
+ 
+  /* margin: 5vh auto 5vh auto;
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  */
 }
+/* .my-portfolio {
+  background: #FFFFFF;
+  position: absolute; */
 
-.headline {
+/* background-image: url(images/header-shapes\ mobile.svg);
+background-repeat: no-repeat;
+} */
+ 
+/* .headline {
   padding: 20px;
   line-height: 1.6;
 }
@@ -101,4 +108,12 @@ a.button {
 
 .my-portfolio > * {
   flex: 1 1 auto;
-}
+} */
+
+/* .header-section {
+  background: white;
+  padding: 1rem;
+  display: flex;
+  
+  
+} */
