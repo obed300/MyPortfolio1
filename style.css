@@ -1,9 +1,8 @@
 
 .main-container {
   width: 375px;
-  height: 4000px;
+  height: 5000px;
   background: #e5e5e5;
-  margin-top: 114px;
 }
 
 .work {
@@ -27,7 +26,7 @@
   width: 295px;
   height: 39px;
   margin-left: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -208,7 +207,7 @@
   width: 295px;
   height: 80px;
   margin-left: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -550,6 +549,7 @@
 }
 
 .work-four {
+  display: grid;
   height: 600px;
   width: 327px;
   margin-top: 114px;
@@ -730,7 +730,7 @@
 }
 
 .about-myself {
-  height: 1070px;
+  height: 1400px;
   width: 375px;
   margin-top: 114px;
   border-top-right-radius: 70px;
@@ -740,7 +740,6 @@
 
 .personal-info {
   margin-top: 114px;
-  background-color: #396df2;
 }
 
 .about-info {
@@ -807,7 +806,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  margin-left: 16px;
+  margin-left: 20px;
   height: 72px;
   width: 450px;
   left: 0;
@@ -822,7 +821,7 @@
   padding: 16px;
   gap: 12px;
   width: 180px;
-  height: 55px;
+  height: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -864,6 +863,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: 12px;
 }
 
 .lang-js {
@@ -877,15 +877,23 @@
   color: #253858;
 }
 
-.htmls-this {
+.js-symbol {
+  margin-left: 12px;
+}
+
+.html-this {
   display: flex;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 36px;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 12px;
 }
 
 .html-one {
@@ -897,6 +905,10 @@
   font-size: 15px;
   line-height: 20px;
   color: #253858;
+}
+
+.html-symbol {
+  margin-left: 12px;
 }
 
 .css-icon {
@@ -924,12 +936,16 @@
   color: #253858;
 }
 
+.css-symbol {
+  margin-left: 12px;
+}
+
 .framework {
   width: 285px;
-  height: 72px;
+  height: 30px;
   margin-left: 36px;
   margin-top: 36px;
-  font-family: 'Poppins', sans-serif, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -952,7 +968,7 @@
 
 .skill-let {
   width: 287px;
-  height: 72px;
+  height: 30px;
   margin-left: 36px;
   margin-top: 36px;
   font-family: 'Poppins', sans-serif;
@@ -979,5 +995,5 @@
 hr {
   height: 1px;
   margin-left: 26px;
-  margin-right: 26px;
+  margin-right: 29px;
 }
