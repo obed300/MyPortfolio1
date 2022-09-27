@@ -91,8 +91,6 @@
   list-style: none;
   width: 150px;
   padding-left: 5px;
-
-  /* margin-left: 0px; */
   margin-left: 23px;
   margin-top: 10px;
   display: flex;
@@ -104,16 +102,8 @@
   color: #172b4d;
 }
 
-/* .icon-bar a {
-  flex: 1;
-} */
-
 .main-container {
   border-radius: 1px;
   display: flex;
   flex-direction: column;
 }
-
-/* .main-container > * {
-  flex: 1 1 auto;
-} */
