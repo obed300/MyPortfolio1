@@ -26,12 +26,10 @@
   width: 295px;
   height: 39px;
   margin-left: 16px;
-  
   line-height: 44px;
-  
 }
 
-.tonic{
+.tonic {
   font-weight: bold;
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
@@ -191,14 +189,15 @@
   border-radius: 16px;
 }
 
-.see:hover{
-  background: #6070FF;
-  color: #FFFFFF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+.see:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
-.see:focus{
-  background: #2230D2;
-  color: #FFFFFF;
+
+.see:focus {
+  background: #2230d2;
+  color: #fff;
 }
 
 .work-two {
@@ -223,9 +222,9 @@
   height: 80px;
   margin-left: 16px;
   line-height: 44px;
-  
 }
-.multi-two{
+
+.multi-two {
   font-weight: bold;
   color: #172b4d;
   font-size: 32px;
@@ -387,15 +386,14 @@
   height: 39px;
   margin-left: 16px;
   line-height: 44px;
-  
 }
-.tonic-three{
+
+.tonic-three {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #172b4d;
   font-size: 32px;
-
 }
 
 .title-items-three {
@@ -530,7 +528,6 @@
   border-radius: 0;
 }
 
-
 .work-four {
   display: grid;
   height: 600px;
@@ -552,19 +549,15 @@
   width: 290px;
   height: 80px;
   margin-left: 16px;
-  
-  
- 
   line-height: 44px;
-  
 }
-.post{
+
+.post {
   font-weight: bold;
   color: #172b4d;
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-
 }
 
 .title-items-four {
@@ -699,8 +692,6 @@
   border-radius: 0;
 }
 
-
-
 .about-myself {
   height: 1400px;
   width: 375px;
@@ -806,14 +797,16 @@
   border: 1px solid #396df2;
   border-radius: 16px;
 }
-.get:hover{
-  background: #6070FF;
-  color: #FFFFFF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+
+.get:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
-.get:focus{
-  background: #2230D2;
-  color: #FFFFFF;
+
+.get:focus {
+  background: #2230d2;
+  color: #fff;
 }
 
 .languages {
