@@ -157,6 +157,9 @@
   height: 24px;
 }
 
+
+
+
 .project {
   display: flex;
   align-items: center;
@@ -185,8 +188,8 @@
   letter-spacing: 0.03em;
   color: #396df2;
   background: #fff;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
+border: 1px solid #6070FF;
+border-radius: 8px;
 }
 
 .see:hover {
@@ -287,83 +290,6 @@
   margin-left: 16px;
 }
 
-.tech-skills-two {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 203px;
-  list-style: none;
-  margin-left: 16px;
-}
-
-.html-two {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  width: 53px;
-  height: 24px;
-}
-
-.css-two {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  width: 45px;
-  height: 24px;
-}
-
-.js-two {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  width: 89px;
-  height: 24px;
-}
-
-.project-two {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 16px;
-  height: 72px;
-  width: 295px;
-  left: 0;
-  top: 216px;
-  border-radius: 0;
-}
-
 .work-three {
   display: grid;
   height: 600px;
@@ -451,82 +377,6 @@
   margin-left: 16px;
 }
 
-.tech-skills-three {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 203px;
-  list-style: none;
-  margin-left: 16px;
-}
-
-.html-three {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  width: 53px;
-  height: 24px;
-}
-
-.css-three {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  width: 45px;
-  height: 24px;
-}
-
-.js-three {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  width: 89px;
-  height: 24px;
-}
-
-.project-three {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 16px;
-  height: 72px;
-  width: 295px;
-  left: 0;
-  top: 216px;
-  border-radius: 0;
-}
 
 .work-four {
   display: grid;
@@ -615,17 +465,6 @@
   margin-left: 16px;
 }
 
-.tech-skills-four {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 203px;
-  list-style: none;
-  margin-left: 16px;
-}
-
 .html-four {
   display: flex;
   flex-direction: row;
@@ -680,17 +519,6 @@
   height: 24px;
 }
 
-.project-four {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 16px;
-  height: 72px;
-  width: 295px;
-  left: 0;
-  top: 216px;
-  border-radius: 0;
-}
 
 .about-myself {
   height: 1400px;
