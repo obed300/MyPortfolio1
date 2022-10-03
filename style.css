@@ -92,7 +92,7 @@
   margin-left: 16px;
 }
 
-.tech-skills {
+/* .tech-skills {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -155,9 +155,28 @@
   border-radius: 8px;
   width: 89px;
   height: 24px;
+} */
+
+
+.tech-skills {
+ list-style: none;
+
 }
 
+.my-html {
+  float: right;
+  margin-right: 20px;
+  
+}
 
+.js {
+  float: right;
+  margin-right: 50px;
+}
+.my-css {
+  float: right;
+  margin-right: 100px;
+}
 
 
 .project {
