@@ -84,49 +84,6 @@ border-radius: 8px;
 
 }
 
-textarea{
-  resize: none;
-  border: 1px solid #CFD8DC;
-border-radius: 8px;
-font-family: 'Poppins';
-font-style: normal;
-font-size: 15px;
-line-height: 24px;
-font-weight: -200px;
-
-color: #B3BAC5;
-width: 300px;
-}
-
-button{
-height: 48px;
-width: 140px;
-background: #FFFFFF;
-border-radius: 8px;
-
-}
-.button{
-  color: #6070FF;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-}
-.button:hover {
-  background: #6070ff;
-  color: #fff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
-
-.b:focus {
-  background: #2230d2;
-  color: #fff;
-}
 
 
 
