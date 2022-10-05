@@ -53,12 +53,7 @@ ul{
   
 }
 li{
-  
-
-
-
 margin-top: 20px;
-
 }
 
 #name{
@@ -75,8 +70,6 @@ margin-top: 20px;
 
 input,
 text {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
   font: 1em sans-serif;
   width: 300px;
   border: 1px solid #CFD8DC;
@@ -100,7 +93,6 @@ width: 300px;
 
 button{
 height: 48px;
-width: 140px;
 background: #FFFFFF;
 border-radius: 8px;
 
@@ -123,7 +115,7 @@ letter-spacing: 0.03em;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.b:focus {
+.button:focus {
   background: #2230d2;
   color: #fff;
 }
