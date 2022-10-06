@@ -1172,6 +1172,8 @@ button {
   height: 48px;
   background: #fff;
   border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  width: 143px;
 }
 
 .button {
