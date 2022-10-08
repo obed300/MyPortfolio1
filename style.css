@@ -31,6 +31,11 @@
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  transition: all 0.3s linear;
+}
+.logo:hover{
+  transform: rotate(360deg);
+  color: #6070ff73;;
 }
 
 .headline {
