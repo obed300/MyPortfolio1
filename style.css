@@ -19,12 +19,9 @@
 }
 
 .my-container {
-  height: 700px;
+  width: 375;
   background: #fff;
-  background-image: url(header-shapes\ mobile@2x.jpg);
-  background-repeat: no-repeat;
-  background-position: 100%;
-  border-bottom-left-radius: 70px;
+  border-bottom-left-radius: 75px;
 }
 
 .logo {
@@ -37,9 +34,12 @@
 }
 
 .headline {
+  background-image: url(header-shapes\ mobile@2x.jpg);
+  background-repeat: no-repeat;
+  background-position: 0;
   background-size: auto;
   width: 375px;
-  height: 600px;
+  height: 718px;
 }
 
 .My-self {
@@ -60,6 +60,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: 50px;
 }
 
 .About {
@@ -68,6 +69,7 @@
   left: 0;
   border-radius: 0;
   padding: 114px 24px 114px 24px;
+  margin-top: 25px;
 }
 
 .item2 {
@@ -101,9 +103,9 @@
 .icon-bar {
   list-style: none;
   width: 150px;
-  padding-left: 3px;
-  margin-left: 23px;
-  margin-top: 10px;
+  padding-left: 5px;
+  margin-left: 20px;
+  margin-top: -8px;
   display: flex;
   justify-content: space-between;
 }
@@ -111,6 +113,12 @@
 .icon-bar i {
   font-size: 20px;
   color: #172b4d;
+}
+
+.main-container {
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
 }
 
 .work {
@@ -472,6 +480,26 @@
   border-radius: 0;
 }
 
+.see-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 12px;
+  width: 140px;
+  height: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
 .work-three {
   display: grid;
   height: 600px;
@@ -636,6 +664,26 @@
   border-radius: 0;
 }
 
+.see-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 12px;
+  width: 140px;
+  height: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
 .work-four {
   display: grid;
   height: 600px;
@@ -798,6 +846,26 @@
   left: 0;
   top: 216px;
   border-radius: 0;
+}
+
+.see-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 12px;
+  width: 140px;
+  height: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
 }
 
 .about-myself {
@@ -1201,4 +1269,350 @@ button:focus {
 
 .my-wrapper {
   background-color: #fff;
+}
+
+.menu-list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .buttoms {
+    display: none;
+  }
+
+  .my-container {
+    background: #fff;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 70px;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    justify-content: flex-end;
+    margin-right: 300px;
+  }
+
+  .header-section {
+    margin-left: 100px;
+    width: 100%;
+  }
+
+  .menu-portfolio,
+  .menu-about,
+  .menu-contact {
+    text-decoration: none;
+    color: #28352f;
+    margin: 0 0 0 24px;
+  }
+
+  .headline {
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0;
+    height: 809px;
+    width: 100%;
+    background-image: url(images/ggggg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10px 50px;
+  }
+
+  .item {
+    width: 350px;
+    height: 0;
+    margin-left: 130px;
+  }
+
+  .About {
+    margin-top: -110px;
+    height: 98px;
+    width: 795px;
+    border-radius: nullpx;
+    margin-left: 130px;
+  }
+
+  .connect {
+    margin-top: -25px;
+    margin-left: 153px;
+  }
+
+  .icon-bar {
+    margin-left: 152px;
+  }
+
+  .main-wrapper {
+    width: auto;
+    margin-top: -350px;
+  }
+
+  .My-self {
+    height: 10px;
+    width: 920;
+    margin-top: 359px;
+    padding-top: 300px;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+  }
+
+  .snapshot {
+    height: auto;
+    width: 45%;
+    margin-bottom: 24px;
+    margin-left: 10px;
+  }
+
+  .snapshot img {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+  }
+
+  .desk-one {
+    justify-content: flex-end;
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  .daily {
+    height: 70px;
+    width: 496px;
+    border-radius: nullpx;
+  }
+
+  .title-items {
+    margin-top: -10px;
+  }
+
+  .tech-skills {
+    margin-top: -25px;
+  }
+
+  .work-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    padding-bottom: 110px;
+  }
+
+  .snapshoot-two {
+    align-self: flex-end;
+    margin-right: 250px;
+    height: 433px;
+  }
+
+  .snapshoot-two img {
+    width: 180%;
+  }
+
+  .desk-two {
+    margin-top: -410px;
+  }
+
+  .daily-two {
+    height: 70px;
+    width: 496px;
+  }
+
+  .title-items-two {
+    margin-top: -10px;
+  }
+
+  .tech-skills-two {
+    margin-top: -20px;
+  }
+
+  .project-title-two {
+    width: 496px;
+    height: 46px;
+  }
+
+  .work-three {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+  }
+
+  .snapshoot-three {
+    align-self: flex-end;
+    margin-right: 250px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .snapshoot-three img {
+    width: 180%;
+  }
+
+  .daily-three {
+    height: 70px;
+    width: 496px;
+  }
+
+  .title-items-three {
+    margin-top: -10px;
+  }
+
+  .tech-skills-three {
+    margin-top: -20px;
+  }
+
+  .work-four {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+  }
+
+  .snapshoot-four {
+    align-self: flex-end;
+    margin-right: 250px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .snapshoot-four img {
+    width: 180%;
+  }
+
+  .daily-four {
+    height: 70px;
+    width: 496px;
+  }
+
+  .project-title-four {
+    width: 496px;
+    height: 46px;
+  }
+
+  .title-items-four {
+    margin-top: -10px;
+  }
+
+  .tech-skills-four {
+    margin-top: -20px;
+  }
+
+  .desk-four {
+    margin-top: 20px;
+  }
+
+  .about-myself {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .desk-language {
+    margin-top: 100px;
+  }
+
+  .desk-about {
+    margin-left: -200px;
+  }
+
+  .language-desk {
+    display: flex;
+  }
+
+  .Script {
+    height: 20%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lang-js {
+    margin-top: -15px;
+    margin-left: 7px;
+  }
+
+  .html-this {
+    height: 20%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+  }
+
+  .css-icon {
+    height: 20%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+  }
+
+  .html-one {
+    margin-top: -15px;
+    margin-left: 7px;
+  }
+
+  .lang-css {
+    margin-top: -15px;
+    margin-left: 7px;
+  }
+
+  .introduction {
+    height: 102px;
+    width: 447px;
+    left: 0;
+    top: 126px;
+    border-radius: nullpx;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    height: 779px;
+  }
+
+  .my-wrapper {
+    border-top-left-radius: 100px;
+    background: #6070ff;
+    background-image: url(images/ggggg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+  }
+
+  .contact-detail {
+    height: 102px;
+    width: 569px;
+  }
+
+  form {
+    margin-top: -33px;
+  }
+
+  .button {
+    margin-left: 70px;
+  }
 }
