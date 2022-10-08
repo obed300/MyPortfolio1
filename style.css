@@ -1,6 +1,6 @@
 .main-wrapper {
   background: #e5e5e5;
-  height: 5700px;
+  height: auto;
   width: 375px;
 }
 
@@ -309,11 +309,13 @@
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: 0.3s;
 }
 
 .see:focus {
   background: #2230d2;
   color: #fff;
+  transition: 0.3s;
 }
 
 .work-two {
@@ -977,11 +979,13 @@
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: 0.3s;
 }
 
 .get:focus {
   background: #2230d2;
   color: #fff;
+  transition: 0.3s;
 }
 
 .languages {
@@ -1260,11 +1264,13 @@ button {
 button:hover {
   background: #6070ff;
   color: #fff;
+  transition: 0.3s;
 }
 
 button:focus {
   background: #2230d2;
   color: #fff;
+  transition: 0.3s;
 }
 
 .my-wrapper {
@@ -1391,6 +1397,10 @@ button:focus {
     height: 100%;
     padding-left: 20px;
     margin-top: 20px;
+  }
+
+  .desk-language {
+    margin-top: 100px;
   }
 
   .daily {
@@ -1527,10 +1537,6 @@ button:focus {
     padding-bottom: 50px;
   }
 
-  .desk-language {
-    margin-top: 100px;
-  }
-
   .desk-about {
     margin-left: -200px;
   }
@@ -1614,5 +1620,24 @@ button:focus {
 
   .button {
     margin-left: 70px;
+  }
+
+  .framework i {
+    width: 200px;
+    margin-left: 400px;
+  }
+
+  .languages i {
+    width: 200px;
+    margin-left: 420px;
+  }
+
+  .skill-let i {
+    width: 200px;
+    margin-left: 478px;
+  }
+
+  .line {
+    width: 200%;
   }
 }
