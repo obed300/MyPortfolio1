@@ -3,7 +3,7 @@
 > Very wonderful website to illustrate what I have and can do.
 
 ## Live Demo
-<a href="https://obed300.github.io/Obed-Portfolio.github.io/">live demo</a>
+Follow the link [live Demo ](https://obed300.github.io/Obed-Portfolio.github.io/)
 
 ## Built With
 
