@@ -18,14 +18,21 @@
         <div class="my-container">  
             <header class="header-section">
                 <a aria-label="logo" href="#" class="logo" alt="Logo">My Logo</a>
-                <nav class="hamburger-menu">
-                    <a aria-label="bars" href="#" class="buttoms">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <ul class="menu-list">
-                      <li><a href="#portfolio" class="menu-portfolio">Porfolio</a></li>
-                      <li><a href="#about" class="menu-about">About</a></li>
-                      <li><a href="#contact" class="menu-contact">Contact</a></li>
+                <nav class="hamburger">
+                    <div class="ham">
+                        <a aria-label="bars" href="#" class="buttoms">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <a aria-label="close" href="#" id="exit">
+                            <i class="fa fa-close"></i>
+                        </a>
+
+                    </div>
+                    
+                    <ul class="menulist">
+                      <li><a class="listitem" href="#portfolio" class="menu-portfolio">Porfolio</a></li>
+                      <li><a class="listitem" href="#about" class="menu-about">About</a></li>
+                      <li><a class="listitem" href="#contact" class="menu-contact">Contact</a></li>
 
                     </ul>
                         
@@ -69,7 +76,7 @@
                 </section>
         </div>      
 
-        <section class="work">
+        <section class="work"  id="portfolio">
             <div class="snapshot">
                 <img src="images/Snapshoot Portfolio.svg" alt="Tanner Christensen: Product designer at facebook and lyft">
             </div>
@@ -101,7 +108,7 @@
             
         </section>
 
-        <div class="work-two">
+        <div class="work-two" id="portfolio">
             <div class="snapshoot-two">
                 <img src="images/snapshoot2.svg" alt="What is available" class="imag">
             </div>
@@ -135,7 +142,7 @@
             
         </div> 
 
--        <div class="work-three">
+-        <div class="work-three" id="portfolio">
             <div class="snapshoot-three">
                 <img src="images/Snapshoot3.svg" alt="">
             </div>
@@ -201,7 +208,7 @@
            
         </div> 
 
-        <section class="about-myself">
+        <section class="about-myself" id="about">
             <div class="desk-about">
                 <div class="personal-info">
                     <h2 class="about-info">About
@@ -283,7 +290,7 @@
         </section>
         
         <div class="my-wrapper">
-            <footer class="contact-form">
+            <footer class="contact-form" id="contact">
                 <div class= "contact-header">
                     <h2 class="contact-me">Contact me</h2>
                 </div>
