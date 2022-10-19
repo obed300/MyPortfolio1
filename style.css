@@ -29,9 +29,9 @@ nav.ham {
   bottom: 0;
   z-index: 800;
   background: #6070ff;
+  mix-blend-mode: multiply;
   backdrop-filter: blur(10px) saturate(50%);
   width: 375px;
-  mix-blend-mode: multiply;
   list-style: none;
   padding-top: 4rem;
   font-family: 'Poppins', sans-serif;
