@@ -1,18 +1,20 @@
-const menulist = document.querySelector('.menulist');
-const ham = document.querySelector('.hamburger');
-const buttoms = document.querySelector('.buttoms');
-const exit = document.querySelector('#exit');
+const menuToggler = document.getElementById("toggle");
+const navMenu = document.getElementById("mobile-floating-nav");
+const closeBtn = document.getElementById("menu-close-btn");
+let navItems = document.getElementsByClassName("mob-nav-item");
 
-function toggleMenu() {
-  if (menulist.classList.contains('showMenu')) {
-    menulist.classList.remove('showMenu');
-    exit.style.display = 'none';
-    buttoms.style.display = 'block';
-  } else {
-    menulist.classList.add('showMenu');
-    exit.style.display = 'block';
-    buttoms.style.display = 'none';
-  }
-}
+navItems = Array.prototype.slice.call(navItems);
 
-ham.addEventListener('click', toggleMenu);
+menuToggler.addEventListener("click", () => {
+  navMenu.style.left = "0";
+});
+
+closeBtn.addEventListener("click", () => {
+  navMenu.style.left = "-100%";
+});
+
+navItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    navMenu.style.left = "-100%";
+  });
+});
