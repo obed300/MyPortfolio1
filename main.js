@@ -1,18 +1,18 @@
-const menulist = document.querySelector('.menulist');
-const ham = document.querySelector('.hamburger');
-const buttoms = document.querySelector('.buttoms');
-const exit = document.querySelector('#exit');
-
-function toggleMenu() {
-  if (menulist.classList.contains('showMenu')) {
-    menulist.classList.remove('showMenu');
-    exit.style.display = 'none';
-    buttoms.style.display = 'block';
-  } else {
-    menulist.classList.add('showMenu');
-    exit.style.display = 'block';
-    buttoms.style.display = 'none';
-  }
+const mobileBtn = document.getElementById('menu-bar');
+const exitBtn = document.getElementById('close-menu');
+const aboutBtn = document.getElementById('about-2');
+const PortfolioBtn = document.getElementById('portifolio-2');
+const contactBtn = document.getElementById('contact-2');
+const nav = document.querySelector('nav');
+mobileBtn.addEventListener('click', () => {
+  nav.classList.add('menu-btn');
+  
+});
+function display() {
+  nav.classList.remove('menu-btn');
 }
 
-ham.addEventListener('click', toggleMenu);
+exitBtn.addEventListener('click', display);
+aboutBtn.addEventListener('click', display);
+PortfolioBtn.addEventListener('click', display);
+contactBtn.addEventListener('click', display);
