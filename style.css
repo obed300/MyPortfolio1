@@ -8,8 +8,6 @@ body {
   margin-right: auto;
 }
 
-
-
 header {
   position: relative;
   display: block;
@@ -676,12 +674,11 @@ li.language {
   border-radius: 8px;
 }
 
-
 @media only screen and (max-width: 768px) {
   nav {
     display: none;
   }
-  
+
 
   /* today */
   nav.menu-btn {
