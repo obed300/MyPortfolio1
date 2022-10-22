@@ -7,7 +7,7 @@ Follow the link [live Demo ](https://obed300.github.io/Obed-Portfolio.github.io/
 
 ## Built With
 
-- HTML and CSS
+- HTML,Javascript and CSS
 
 ## Author
 
