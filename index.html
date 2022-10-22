@@ -1,287 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Obed's Portfolio Website</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
-    <!--icon link-->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/9ea65bb5f9.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <!--css link-->
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <!--header section-->
-      <header class="header">
-        <!--logo-->
-        <a href="#index.html" class="logo">My logo</a>
-
-        <!--navbar-->
-        <nav>
-          <ul id="mobile-floating-nav" class="navlink">
-            <li id="menu-close-btn">
-              <i class="uil uil-multiply close-btn mobile"></i>
-            </li>
-            <li class="mob-nav-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="mob-nav-item"><a href="#about">About</a></li>
-            <li class="mob-nav-item"><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <!--end of navbar-->
-
-        <nav id="toggle" class="toggle">
-          <i class="uil uil-bars"></i>
-        </nav>
-      </header>
-
-      <!--home page-->
-      <section class="home">
-        <article class="home-content">
-          <h1 class="home-title">
-            I'm Obed <br />
-            Glad to see you!
-          </h1>
-
-          <p class="home-main">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
-
-          <h5>LET'S CONNECT</h5>
-
-          <ul class="social_links">
-            <li>
-              <a href=""><img src="./images/Vector.svg" alt="the vector" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/linkedin.svg" alt="linkedin" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/Vector (2).svg" alt="" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/Vector (1).svg" alt="" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/Vector (3).svg" alt="" /></a>
-            </li>
-          </ul>
-        </article>
-      </section>
-
-      <!--portfolio section-->
-
-      <section id="portfolio" class="portfoilio">
-        <div class="portfoilio-wrapper">
-          <!--single article-->
-          <article class="flexbox order-1">
-            <div class="portfoilio-img desktop Snapshoot"></div>
-            <div class="portfoilio-img mobile human"></div>
-            <div class="article-text">
-              <h2 class="project-name">Tonic</h2>
-              <p class="job">
-                CANOPY <span><strong>.</strong> Back End Dev</span
-                ><span><strong>.</strong> 2015</span>
-              </p>
-              <p class="articel-context">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="btns">
-                <li class="mini button">html</li>
-                <li class="mini button">css</li>
-                <li class="mini button">javascript</li>
-              </ul>
-              <button class="btn">See Project</button>
-            </div>
-          </article>
-          <!--end of single article-->
-
-          <!--single article-->
-          <article class="flexbox order-2">
-            <div class="portfoilio-img img-1"></div>
-            <div class="article-text">
-              <h2 class="project-name">Muti-post Stories</h2>
-              <p class="job">
-                FACEBOOK <span><strong>.</strong> Full stack Dev</span
-                ><span><strong>.</strong>2015</span>
-              </p>
-              <p class="articel-context">
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
-              </p>
-              <ul class="btns">
-                <li class="mini button">html</li>
-                <li class="mini button desktop">Ruby on rails</li>
-                <li class="mini button">css</li>
-                <li class="mini button">javascript</li>
-              </ul>
-              <button class="btn">See Project</button>
-            </div>
-          </article>
-          <!--end of single article-->
-          <!--single article-->
-          <article class="flexbox order-3">
-            <div class="portfoilio-img img-2"></div>
-            <div class="article-text">
-              <h2 class="project-name">Facebook 360</h2>
-              <p class="job">
-                Facebook <span><strong>.</strong> Full Stack Dev</span
-                ><span><strong>.</strong> 2015</span>
-              </p>
-              <p class="articel-context">
-                Exploring the future of media in Facebook's first Virtual
-                Reality app; a place to discover and enjoy 360 photos and videos
-                on Gear VR.
-              </p>
-              <ul class="btns">
-                <li class="mini button">html</li>
-                <li class="mini button desktop">Ruby on rails</li>
-                <li class="mini button">css</li>
-                <li class="mini button">javascript</li>
-              </ul>
-              <button class="btn">See Project</button>
-            </div>
-          </article>
-          <!--end of single article-->
-          <!--single article-->
-          <article class="flexbox order-4">
-            <div class="portfoilio-img img-3"></div>
-            <div class="article-text">
-              <h2 class="project-name">Uber Navigation</h2>
-              <p class="job">
-                Uber <span><strong>.</strong> Lead developer</span
-                ><span><strong>.</strong> 2018</span>
-              </p>
-              <p class="articel-context">
-                A smart assistant to make driving more safe, efficient, and fun
-                by unlocking your most expensive computer: your car.
-              </p>
-              <ul class="btns">
-                <li class="mini button">html</li>
-                <li class="mini button desktop">Ruby on rails</li>
-                <li class="mini button">css</li>
-                <li class="mini button">javascript</li>
-              </ul>
-              <button class="btn">See Project</button>
-            </div>
-          </article>
-          <!--end of single article-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="pop-up-wrap">
         </div>
-      </section>
-      <!--end of the portfolio section-->
-
-      <!--start of about section-->
-      <section id="about" class="about">
-        <div class="about-wrapper">
-          <article class="about-content">
-            <h1 class="home-title">
-              About <br />
-              Myself
-            </h1>
-            <p class="about-main">
-              I’m a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <h5>LET'S CONNECT</h5>
-
-            <ul class="social_links">
-              <li>
-                <a href=""
-                  ><img src="./images/Vector.svg" alt="the vector"
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="./images/linkedin.svg" alt="linkedin"
-                /></a>
-              </li>
-              <li>
-                <a href=""><img src="./images/Vector (2).svg" alt="" /></a>
-              </li>
-              <li>
-                <a href=""><img src="./images/Vector (1).svg" alt="" /></a>
-              </li>
-              <li>
-                <a href=""><img src="./images/Vector (3).svg" alt="" /></a>
-              </li>
-            </ul>
-            <button class="btn">Get My Resume</button>
-          </article>
-
-          <article class="lang">
-            <div class="lang-title">
-              <h3>Languages</h3>
-              <a href="#" class="arrow"><i class="uil uil-angle-down"></i></a>
-            </div>
-            <ul class="lang-img desktop flex">
-              <li><img src="./images/Frame 9.svg" alt="html" /></li>
-              <li><img src="./images/Frame 10.svg" alt="html" /></li>
-              <li><img src="./images/Frame 11.svg" alt="html" /></li>
-            </ul>
-            <ul class="lang-img mobile">
-              <li><img src="./images/Frame 9 (1).svg" alt="html" /></li>
-              <li><img src="./images/Frame 10 (1).svg" alt="html" /></li>
-              <li><img src="./images/Frame 11 (1).svg" alt="html" /></li>
-            </ul>
-            <ul class="lang-title Frameworks">
-              <h4>Frameworks</h4>
-              <a href="#" class="arrow"><i class="uil uil-angle-right"></i></a>
-            </ul>
-
-            <ul class="lang-title Frameworks">
-              <h4>Skills</h4>
-              <a href="#" class="arrow"><i class="uil uil-angle-right"></i></a>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <!--end of about section-->
-
-      <!--start of contact section-->
-      <section id="contact" class="contact">
-        <article class="contact-context">
-          <h1 class="title">Contact me</h1>
-
-          <p class="contact-main">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
-
-          <form action="" class="contact-form" get>
-            <input type="text" placeholder="Yeremias" />
-            <input type="email" placeholder="natajayanj14@gmail.com" />
-            <textarea
-              name="textarea"
-              id="comment"
-              cols="30"
-              rows="10"
-              placeholder="Write your message here"
-            ></textarea>
-            <button class="btn form-btn">Get in touch</button>
-          </form>
-        </article>
-      </section>
-      <!--end of contact section-->
     </div>
-
-    <script src="main.js"></script>
-  </body>
+    <div class="hole-div">
+    <header>
+        <div class="logo-nav">
+            <div class="logo">
+            <h1>My Logo</h1>
+            </div>
+            <img src="images/icon-bar.svg" class="bars-mob" id="menu-bar" alt="">
+            <nav>
+                <img class="bar-new" id="close-menu" src="images/close-menu.svg" alt="">
+                <div class="nav-bar bar-new">
+                <ul class="nav-main">
+                    <li><a id="portifolio-2" href="#portfolio-1">Portfolio</a></li>
+                    <li><a id="about-2" href="#about-1">About</a></li>
+                    <li><a id="contact-2" href="#contact-1">Contact</a></li>
+                </ul>
+               </div>
+            </nav>
+        </div>
+        <div class="container-1">
+            <div class="discription">
+                <h1>I'm Obed Glad to see you!</h1>
+                <p>I'm a software developer! I can help you build a product, feature or website look through some of my work and experience! if you like what you  see and have a project you need coded, don't hestiate to contact me</p>
+                <div class="let-s">
+                    <h2>LET'S CONNECT</h2>
+                    <div class="vector">
+                        <ul>
+                            <li><a href="https://github.com/obed300" class="twitter"></a></li>
+                            <li><a href="#" class="linkedin"></a></li>
+                            <li><a href="#" class="medium"></a></li>
+                            <li><a href="#" class="github"></a></li>
+                            <li><a href="#" class="hand"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-part all-page-mode" id="portfolio-1">
+        <article class="article-a">
+            
+            <div class="image-1 scale-image"></div>
+            <div class="back-image-file all-image-pro scale-image"></div>
+            <div class="back-description">
+                <h2>Tonic</h2>
+                <div>
+                    <ul class="page-list">
+                        <li>CANOPY</li>
+                        <li>Back End developer</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="uniqe-para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                </div>
+                <div class="nav-source">
+                    <ul>
+                        <li>html</li>
+                        <li>JavaScript</li>
+                        <li>css</li>
+                    </ul>
+                </div>
+                <div class="button-m">
+                    <button class="see-btn" type="button" data-id="0">See Project</button>
+                </div>
+        </div>
+        </article>
+        <article>
+            <div class="image-2 scale-image"></div>
+            <div class="back-description two-four">
+                <h2>Multi-Post Stories</h2>
+                <ul class="page-list">
+                    <li>FACEBOOK</li> 
+                    <li>Full Stack Dev</li>
+                    <li>2015</li>
+                </ul>
+                <div>
+                    <p class="uniqe-para">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                </div>
+                <div class="nav-source">
+                    <ul>
+                        <li>html</li>
+                        <li>Ruby on rails</li>
+                        <li>css</li>
+                        <li>javaScript</li>
+                    </ul>
+                </div>
+                <div class="button-m">
+                    <button class="see-btn"  type="button"  data-id="1">See Project</button>
+                </div>
+            </div>
+            <div class="back-image-file-1 all-image-pro mid-end scale-image"></div>
+        </article>
+        <article>
+            <div class="image-3 scale-image"></div>
+            <div class="back-image-file-2 all-image-pro scale-image"></div>
+            <div class="back-description">
+                <h2>Facebook 360</h2>
+                <ul class="page-list">
+                    <li>FACEBOOK</li>
+                    <li>Full Stack Dev</li>
+                    <li>2015</li>
+                </ul>
+                <div>
+                    <p class="uniqe-para">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                </div>
+                <div class="nav-source">
+                    <ul>
+                        <li>html</li>
+                        <li>Ruby on rails</li>
+                        <li>JavaScript</li>
+                        <li>css</li>
+                    </ul>
+                </div>
+                <div class="button-m">
+                    <button class="see-btn" type="button" data-id="2">See Project</button>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="image-4 scale-image"></div>
+            <div class="back-description two-four">
+                <h2>Uber Navigation</h2>
+                <ul class="page-list">
+                    <li>Uber</li>
+                    <li>Lead Developer</li>
+                    <li>2018</li>
+                </ul>
+                <div>
+                    <p class="uniqe-para">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                </div>
+                <div class="nav-source">
+                    <ul>
+                        <li>html</li>
+                        <li>JavaScript</li>
+                        <li>css</li>
+                    </ul>
+                </div>
+                <div class="button-m">
+                    <button class="see-btn btn"  type="button" data-id="3">See Project</button>
+                </div>
+            </div>
+            <div class="back-image-file-3 all-image-pro mid-end scale-image"></div>
+        </article>
+    </section>
+    <div class="popover-all">
+       <div class="pop-over">
+        <section class="section-a">
+            <h2 id="headre-pop">Tonic</h2>
+            <img class="bar-new" id="close-popover" src="images/pop-close.svg" alt="">
+        </section>
+        <section class="section-b">
+            <div>
+                <ul class="page-list">
+                    <li>CANOPY</li>
+                    <li>Back End developer</li>
+                    <li>2015</li>
+                </ul>
+            </div>
+        </section>
+        <!-- <section class="section-c">
+            <div class="image-1 scale-image"></div>
+           <img class="desck-top" src="imagsPop/Snapshoot Portfolio(3).png" alt="">
+        </section>
+        <section class="section-d section-phone">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum corrupti ut saepe! Repellat, officiis! Ex nostrum quis fugiat commodi odio? Dignissimos eos saepe voluptatem unde dolorem ut molestiae repudiandae.</p>
+        </section>
+            <section class="section-e section-phone">
+                <div class="nav-pop">
+                    <ul>
+                        <li>html</li>
+                        <li>JavaScript</li>
+                        <li>css</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-f section-phone">
+                <button><p>See Live</p><img src="imagsPop/see-live-icon.svg" alt=""></button>
+                <button><p>See Source</p><img src="images/Vector.svg" alt=""></button>
+            </section>
+        <div class="container-pop">
+            <section class="section-d">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, at? Delectus consectetur in nesciunt, ex ea quisquam esse consequatur dolores cumque dolor porro adipisci veritatis error eius eligendi labore vero.</p>
+            </section>
+            <section class="section-e">
+                <div class="nav-pop">
+                    <ul>
+                        <li>html</li>
+                        <li>JavaScript</li>
+                        <li>css</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-f">
+                <button><p>See Live</p><img src="imagsPop/see-live-icon.svg" alt=""></button>
+                <button><p>See Source</p><img src="images/Vector.svg" alt=""></button>
+            </section> -->
+        </div>
+        
+    </div>
+    </div>
+    <section class="about-me all-page-mode" id="about-1">
+        <article>
+            <div class="about-me-page">
+                <h1 class="header-1">About Myself</h1>
+                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <div class="let-s">
+                    <h2>LET'S CONNECT</h2>
+                    <div class="vector">
+                        <ul>
+                            <li><a href="https://github.com/girma336" class="twitter"></a></li>
+                            <li><a href="#" class="linkedin"></a></li>
+                            <li><a href="#" class="medium"></a></li>
+                            <li><a href="#" class="github"></a></li>
+                            <li><a href="#" class="hand"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="button-m">
+                    <button type="button">Get my Resume</button>
+                </div>
+            </div>
+            <div class="lists-of-frame">
+                <ul>
+                    <li class="language"><h1>Language</h1>
+                        <div class="up-down">
+                        <span  id="odd-span"  class="glyphicon glyphicon-chevron-right"></span></p>
+                        <span  id="new-span"  class="glyphicon glyphicon-chevron-down"></span></p>
+                        </div>
+                        
+                    
+                    <ul class="hovers">
+                        <li>
+                            <span class="list-1"></span>
+                             <p>JavaSript</p>
+                        </li>
+                        <li>  
+                            <span class="list-2"></span>                                
+                            <p>Htlm</p>
+                        </li>
+                        <li>
+                            <span class="list-3"></span>                             
+                            <p>Css</p>
+                        </li>
+                    
+                    </ul></li>
+                    <li class="lang"><h1>Frameworks</h1>
+                    <span id="span" class="glyphicon glyphicon-chevron-right"></span></p>    
+                    </li>
+                    <li class="lag">
+                    <h1>Skills</h1>
+                    <span id="span"  class="glyphicon glyphicon-chevron-right"></span></p>    
+                    </li>
+                </ul>
+            </div>  
+        </article>
+    </section>
+    <section class="contact-me-form all-page-mode" id="contact-1">
+            <div class="new-contact">
+                <h2>Contact me</h2>
+                <p id="new-info">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            </div>
+            <div class="contact-fo">
+                <form class="form-class" action="https://formspree.io/f/xrgdkrew" method="POST">
+                    <ul>
+                        <li>
+                          <input type="text" id="name" name="user_name" placeholder="Obed Bamfo" maxlength="30" required/>
+                        </li>
+                        <li>
+                          <input type="email" id="mail" name="user_email" required placeholder="obamfo@st.ug.edu.gh"/>
+                        </li>
+                        <li>
+                          <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here"></textarea>
+                        </li>
+                        <li>
+                            <p class="if-false"></p>
+                            <button id="submited" type="submit">Get It Touch</button>
+                        </li>
+                </form>
+            </div>
+            <div class="shape"></div>
+    </section>
+</div>
+<script src="main.js"></script>
+</body>
 </html>
